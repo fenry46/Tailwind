@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/@tailwindcss/browser@4"></script>
+    <title>Belajar tailwind</title>
+    <!-- <style type="text/tailwindcss">
+        *{
+            border: 1px solid red;
+         }
+    </style> -->
+    <style type="text/tailwindcss">
+        @theme {
+          --color-clifford: #da373d;
+        }
+      </style>
+</head>
+
+<body>
+    <h1 class="text-2xl">Belajar tailwindCSS</h1>
+
+    <section class="mb-10 bg-gradient-to-r from-indigo-200 via-green-300 to-red-400">
+        <h2>Spacing</h2>
+        <div class="m-12  text-clifford">Margin</div>
+        <div class="p-8">Padding</div>
+    </section>
+
+    <section class="mb-10 bg-green-300">
+        <h2>Sizing</h2>
+        <div class="w-32 h-32">kotak 1</div>
+    </section>
+
+    <section class="mb-96 max-w-3xl mx-auto">
+        <h2 class="mb-2 text-3xl font-bold">Belajar Typograhy tailwind css</h2>
+        <div class="mb-4 text-lg">By Fendy, 1 january 2025</div>
+        <p class="mb-4">Lorem ipsum <a href="#" class="underline font-semibold">dolor</a> sit amet consectetur
+            adipisicing elit.
+            Voluptatibus iure totam
+            perferendis
+            fugit porro
+            cumque tenetur quae odit officia, accusamus fuga repellat ipsam! Ducimus molestias corrupti dignissimos
+            deserunt eius rerum recusandae aperiam repudiandae, unde, rem consequatur possimus! Commodi ratione sit
+            aspernatur culpa! Dolores, omnis aperiam. Numquam, repudiandae. Fugiat, exercitationem deserunt!</p>
+        <blockquote class="mb-4 italic font-thin text-sky-500">Lorem ipsum dolor sit, amet consectetur adipisicing
+            elit. Aliquid
+            odit
+            molestiae
+            provident nam,
+            dignissimos
+            dicta perspiciatis quam quia quod distinctio.</blockquote>
+    </section>
+</body>
+
+</html>
