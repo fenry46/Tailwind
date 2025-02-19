@@ -40,7 +40,7 @@
 
     <section class="mb-10 bg-gradient-to-r from-indigo-200 via-green-300 to-red-400">
         <h2>Spacing</h2>
-        <div class="m-12  text-clifford">Margin</div>
+        <div class="m-12 text-clifford">Margin</div>
         <div class="p-8">Padding</div>
     </section>
 
@@ -52,7 +52,7 @@
     <section class="max-w-3xl mx-auto">
         <h2 class="mb-2 text-3xl font-bold">Belajar Typograhy tailwind css</h2>
         <div class="mb-4 text-lg">By Fendy, 1 january 2025</div>
-        <p class="mb-4">Lorem ipsum <a href="#" class="underline font-semibold">dolor</a> sit amet consectetur
+        <p class="mb-4">Lorem ipsum <a href="#" class="font-semibold underline">dolor</a> sit amet consectetur
             adipisicing elit.
             Voluptatibus iure totam
             perferendis
@@ -90,29 +90,29 @@
     </div>
 
 
-    <div class="mt-32 max-w-xl mx-auto h-96 bg-slate-300 bg-contain bg-no-repeat rounded-2xl border-8 border-slate-500"
+    <div class="max-w-xl mx-auto mt-32 bg-no-repeat bg-contain border-8 h-96 bg-slate-300 rounded-2xl border-slate-500"
         style="background-image: url('src/NationalGeographic_2572187_3x2.avif')">
         <!-- <div class="w-full h-full bg-blue-300"></div> -->
 
     </div>
     <hr class="my-50">
     <div class="flex justify-center">
-        <span class="text-sm text-slate-500 mr-2">Light</span>
+        <span class="mr-2 text-sm text-slate-500">Light</span>
         <input type="checkbox" id="toggle" class="hidden">
         <label for="toggle">
-            <div class="w-9 h-5 bg-slate-500 rounded-full flex items-center cursor-pointer">
+            <div class="flex items-center h-5 rounded-full cursor-pointer w-9 bg-slate-500">
                 <div class="w-5 h-5 bg-white rounded-full toggle-circle"></div>
             </div>
         </label>
-        <span class="text-sm text-slate-500 ml-2"> Dark</span>
+        <span class="ml-2 text-sm text-slate-500"> Dark</span>
     </div>
 
     <button
-        class="my-10 bg-sky-500 px-5 py-2 rounded-full text-white font-semibold font-mono mx-auto block hover:bg-sky-600 active:bg-sky-700 focus:ring foucs:ring-sky-300">
+        class="block px-5 py-2 mx-auto my-10 font-mono font-semibold text-white rounded-full bg-sky-500 hover:bg-sky-600 active:bg-sky-700 focus:ring foucs:ring-sky-300">
         Simpan</button>
 
-    <div class="max-w-lg my-10 border-slate-200 rounded-xl mx-auto p-5 shadow-md hover:bg-sky-500 group">
-        <h5 class="font-bold text-slate-700 text-lg mb-3 group-hover:text-white">My card</h5>
+    <div class="max-w-lg p-5 mx-auto my-10 shadow-md border-slate-200 rounded-xl hover:bg-sky-500 group">
+        <h5 class="mb-3 text-lg font-bold text-slate-700 group-hover:text-white">My card</h5>
         <p
             class="text-slate-600 group-hover:text-white selection:bg-lime-300 selection:text-slate-700 first-line:uppercase first-letter:text-7xl first-letter:float-left first-letter:mr-3">
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptates ullam aspernatur porro voluptatum
@@ -120,15 +120,14 @@
             consequuntur maxime minus eius rerum!</p>
     </div>
 
-    <div class="max-w-lg border border-x-slate-200 rounded-xl mx-auto shadow-md font-serif p-5">
+    <div class="max-w-lg p-5 mx-auto font-serif border shadow-md border-x-slate-200 rounded-xl">
         <form action="">
             <label for="email">
                 <span
                     class="block font-semibold text-slate-700 mb-1 after:content-['*'] after:text-red-500 after:ml-0.5">Email</span>
-                <input type="email" id="email" placeholder="masukkan email.." class="px-3 py-2 border-indigo-500 shadow rounded w-full block text-sm placeholder:text-slate-400 focus:outline-none focus:ring-1
-                     focus:ring-sky-500 invalid:text-pink-700
-                      invalid:focus:ring-pink-700 invalid:border:ring-pink-700 peer">
-                <p class="text-sm m-1 text-pink-700 invisible peer-invalid:visible">Email Tidak Valid</p>
+                <input type="email" id="email" placeholder="masukkan email.."
+                    class="block w-full px-3 py-2 text-sm border-indigo-500 rounded shadow placeholder:text-slate-400 focus:outline-none focus:ring-1 focus:ring-sky-500 invalid:text-pink-700 invalid:focus:ring-pink-700 invalid:border:ring-pink-700 peer">
+                <p class="invisible m-1 text-sm text-pink-700 peer-invalid:visible">Email Tidak Valid</p>
             </label>
         </form>
     </div>
@@ -136,54 +135,120 @@
     <hr class="my-20">
 
     <div
-        class="w-40 h-40 bg-sky-500 mx-auto rounded-lg shadow-lg hover:rotate-180 origin-top-left  hover:bg-pink-500 transition">
+        class="w-40 h-40 mx-auto transition origin-top-left rounded-lg shadow-lg bg-sky-500 hover:rotate-180 hover:bg-pink-500">
     </div>
-    <div class="group mt-20 w-40 h-40 mx-auto ">
+    <div class="w-40 h-40 mx-auto mt-20 group ">
         <div
-            class="w-full h-full bg-sky-500 rounded-lg shadow-lg group-hover:rotate-180 origin-top-left transition duration-1000 ">
+            class="w-full h-full transition duration-1000 origin-top-left rounded-lg shadow-lg bg-sky-500 group-hover:rotate-180 ">
 
         </div>
     </div>
 
-    <div class="w-40 h-40 bg-pink-500 mx-auto mt-20 rounded-lg shadow-lg animate-spin-slow">
+    <div class="w-40 h-40 mx-auto mt-20 bg-pink-500 rounded-lg shadow-lg animate-spin-slow">
 
     </div>
-    
+
     <hr class="my-20 border-t-4">
 
     <div class="container mx-auto">
-        <div class="border rounded-lg shadow-lg p-10 relative">  
-            <!-- <div class="w-10 h-10 bg-pink-200 rounded-full flex fixed bottom-5 right-5 cursor-pointer"><a href="#"  class="text-xl m-auto">🔝</a></div> -->
-            <img src="src/NationalGeographic_2572187_3x2.avif" alt="" width="150" class="float-start mr-3">
-            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis voluptate, molestias mollitia fuga expedita velit accusantium quis porro dolores, vero sequi, quo odit doloribus in corporis. Fugiat non, adipisci quasi ea ab soluta sint consequatur sunt assumenda, at, nesciunt esse delectus quibusdam? Quaerat dignissimos incidunt ad praesentium, eligendi debitis doloribus provident amet, suscipit eaque explicabo corrupti sed doloremque rerum, et inventore deleniti quidem in id? Error, id ipsa. Sunt quis facere molestiae numquam sapiente laborum iste quibusdam fugiat laboriosam, a ullam atque nemo eligendi vel praesentium voluptates blanditiis aspernatur ipsa mollitia unde nihil sit vitae? Vel, asperiores eum et exercitationem, quaerat nemo unde, fuga optio omnis consequatur nihil animi? Harum quia iusto veritatis ea quidem? Fugit quasi, numquam, cupiditate repudiandae nemo qui, excepturi esse fugiat eius odio soluta eum sequi blanditiis provident! Dicta tempora fuga labore autem similique id, ducimus laudantium eaque quo unde corporis dolor qui eos ea excepturi?</p>
+        <div class="relative p-10 border rounded-lg shadow-lg">
+            <!-- <div class="fixed flex w-10 h-10 bg-pink-200 rounded-full cursor-pointer bottom-5 right-5"><a href="#"  class="m-auto text-xl">🔝</a></div> -->
+            <img src="src/NationalGeographic_2572187_3x2.avif" alt="" width="150" class="mr-3 float-start">
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis voluptate, molestias mollitia fuga
+                expedita velit accusantium quis porro dolores, vero sequi, quo odit doloribus in corporis. Fugiat non,
+                adipisci quasi ea ab soluta sint consequatur sunt assumenda, at, nesciunt esse delectus quibusdam?
+                Quaerat dignissimos incidunt ad praesentium, eligendi debitis doloribus provident amet, suscipit eaque
+                explicabo corrupti sed doloremque rerum, et inventore deleniti quidem in id? Error, id ipsa. Sunt quis
+                facere molestiae numquam sapiente laborum iste quibusdam fugiat laboriosam, a ullam atque nemo eligendi
+                vel praesentium voluptates blanditiis aspernatur ipsa mollitia unde nihil sit vitae? Vel, asperiores eum
+                et exercitationem, quaerat nemo unde, fuga optio omnis consequatur nihil animi? Harum quia iusto
+                veritatis ea quidem? Fugit quasi, numquam, cupiditate repudiandae nemo qui, excepturi esse fugiat eius
+                odio soluta eum sequi blanditiis provident! Dicta tempora fuga labore autem similique id, ducimus
+                laudantium eaque quo unde corporis dolor qui eos ea excepturi?</p>
         </div>
     </div>
 
-    <div class=" container border rounded-lg shadow-lg p-10 mx-auto mt-20 columns-3">
+    <div class="container p-10 mx-auto mt-20 border rounded-lg shadow-lg columns-3">
         <img src="https://picsum.photos/600/400" alt="Random Picsum Image" />
         <img src="https://picsum.photos/600/400" alt="Random Picsum Image" />
         <img src="https://picsum.photos/600/400" alt="Random Picsum Image" />
         <img src="https://picsum.photos/600/400" alt="Random Picsum Image" />
         <img src="https://picsum.photos/600/400" alt="Random Picsum Image" />
         <img src="https://picsum.photos/600/400" alt="Random Picsum Image" />
-    </div>  
+    </div>
 
-    
+
 
     <hr class="my-24 border-t-4">
 
 
-    <div class="container px-6 font-serif max-w-md mx-auto sm:max-w-xl">
-        <h3 class="text-4xl font-bold text-slate-800 sm:text-5xl">Fendy</h3>
-        <img class="mt-4 rounded-xl shadow-xl sm:w-full sm:object-cover" src="https://picsum.photos/1280/960" alt="random Image">
-        <h2 class="mt-6 text-2xl font-semibold text-slate-800 sm:mt-10" >Mari belajar programming bersama Fendy</h2>
-        <p class="mt-2 text-slate200">Lorem ipsum dolor sit amet consectetur,  voluptate hic assumenda aliquid? Ad placeat at recusandae vitae illo, illum in!</p>
-        <div class="mt-2">
-            <a href="" class="inline-block px-5 py-3 bg-red-600 text-white rounded-full shadow-lg uppercase font-semibold text-sm sm:mt-7">Haiii</a>
+    <div class="container max-w-md px-6 mx-auto font-serif sm:max-w-xl lg:flex lg:max-w-full lg:p-0">
+        <div class="lg:p-12 lg:flex-1">
+            <h3 class="text-4xl font-bold text-slate-800 sm:text-5xl">Fendy</h3>
+            <img class="mt-4 shadow-xl rounded-xl sm:w-full sm:object-cover lg:hidden"
+                src="https://picsum.photos/1280/960" alt="random Image">
+            <h2 class="mt-6 text-2xl font-semibold text-slate-800 sm:mt-10">Mari belajar programming bersama Fendy</h2>
+            <p class="mt-2 text-slate200">Lorem ipsum dolor sit amet consectetur, voluptate hic assumenda aliquid? Ad
+                placeat at recusandae vitae illo, illum in!</p>
+            <div class="mt-2">
+                <a href=""
+                    class="inline-block px-5 py-3 text-sm font-semibold text-white uppercase bg-red-600 rounded-full shadow-lg sm:mt-7">Haiii</a>
+            </div>
+        </div>
+        <div class="hidden lg:block lg:w1/2">
+            <img class="object-cover rounded-l-full" src="https://picsum.photos/1280/960" alt="random Image">
         </div>
     </div>
 
-    <div class="mb-96"></div>
+    <h2 class="mt-24 mb-10 text-3xl font-bold text-center text-slate-700">My Gallery</h2>
+
+    <div class="container px-6 mx-auto sm:flex sm:flex-wrap sm:gap-6 sm:justify-center">
+        <div class="mb-10 overflow-hidden rounded-md shadow-lg sm:w-64 md:w-60 lg:w-72 sm:mb-0">
+            <img src="https://picsum.photos/600/400" alt="random Image" class="w-full">
+            <div class="px-6 py-4">
+                <div class="mb-2 text-xl font-bold text-slate-700">Image Title</div>
+                <p class="text-sm text-slate-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium,
+                    eius.</p>
+            </div>
+        </div>
+        <div class="mb-10 overflow-hidden rounded-md shadow-lg sm:w-64 md:w-60 lg:w-72 sm:mb-0">
+            <img src="https://picsum.photos/600/400" alt="random Image" class="w-full">
+            <div class="px-6 py-4">
+                <div class="mb-2 text-xl font-bold text-slate-700">Image Title</div>
+                <p class="text-sm text-slate-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium,
+                    eius.</p>
+            </div>
+        </div>
+        <div class="mb-10 overflow-hidden rounded-md shadow-lg sm:w-64 md:w-60 lg:w-72 sm:mb-0">
+            <img src="https://picsum.photos/600/400" alt="random Image" class="w-full">
+            <div class="px-6 py-4">
+                <div class="mb-2 text-xl font-bold text-slate-700">Image Title</div>
+                <p class="text-sm text-slate-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium,
+                    eius.</p>
+            </div>
+        </div>
+        <div class="mb-10 overflow-hidden rounded-md shadow-lg sm:w-64 md:w-60 lg:w-72 sm:mb-0">
+            <img src="https://picsum.photos/600/400" alt="random Image" class="w-full">
+            <div class="px-6 py-4">
+                <div class="mb-2 text-xl font-bold text-slate-700">Image Title</div>
+                <p class="text-sm text-slate-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium,
+                    eius.</p>
+            </div>
+        </div>
+        <div class="mb-10 overflow-hidden rounded-md shadow-lg sm:w-64 md:w-60 lg:w-72 sm:mb-0">
+            <img src="https://picsum.photos/600/400" alt="random Image" class="w-full">
+            <div class="px-6 py-4">
+                <div class="mb-2 text-xl font-bold text-slate-700">Image Title</div>
+                <p class="text-sm text-slate-600">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium,
+                    eius.</p>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class=" mb-96">
+    </div>
 
     <script>
         const checkbox = document.querySelector('#toggle');
