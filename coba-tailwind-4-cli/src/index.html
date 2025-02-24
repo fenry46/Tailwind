@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Tailwind</title>
+    <link rel="stylesheet" href="output.css">
+</head>
+
+<body>
+    <div class="w-full p-10 m-auto text-center">
+
+        <h1 class="text-3xl font-bold underline mt-50 text-wpu-green">
+            Hello world
+        </h1>
+        <button popovertarget="my-popover">Click me</button>
+        <p popover id="my-popover">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore, cupiditate!</p>
+        <div class="flex justify-center my-5 perspective-near">
+            <img src="images.png" alt="stick"
+                class="transition-all origin-bottom rounded rotate-x-70 w-50 hover:rotate-x-0">
+        </div>
+        <div class="w-full my-5 h-30 rounde bg-linear-45 from-wpu-green to-orange-500"></div>
+        <div class="w-full my-5 h-30 rounde bg-linear-45/srgb from-wpu-green to-orange-500"></div>
+        <div class="w-full my-5 h-30 rounde bg-linear-45/oklch from-wpu-green to-orange-500"></div>
+    </div>
+</body>
+
+</html>
